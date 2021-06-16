@@ -59,10 +59,12 @@
         </div>
       </div>
       <div class="search-result-slider">
-        <p class="slider-title">
-          Refine flight search
-        </p>
-        <input type="range" min="{{ searchResults.min }}" max="{{ searchResults.max }}">
+        <div>
+          <span class="slider-title">
+            Refine flight search
+          </span>
+          <input type="range" min="{{ searchResults.min }}" max="{{ searchResults.max }}">
+        </div>
       </div>
     </section>
     <section class="content">
@@ -85,7 +87,7 @@
           </span>
         </div>
         <div class="dates">
-          <div class="dates-content">
+          <div *ngIf="searchedOriginCityName" class="dates-content">
             <span *ngIf="departureDate" class="departure-date block-span">
               Depart: {{ departureDateFormatted }}
             </span>

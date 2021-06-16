@@ -67,5 +67,19 @@
         "business_class_available_seats": 17,
         "economy_class_available_seats": 35,
         "price": 5000.00
+    },
+    {
+        "id": "AI-213",
+        "origin_city_name": "Delhi",
+        "origin_city_code": "DEL",
+        "destination_city_name": "Mumbai",
+        "destination_city_code": "MUM",
+        "departure_date_time": "10-07-2021 10:00 pm",
+        "arrival_date_time": "10-07-2021 12:00 am",
+        "business_class_total_seats": 20,
+        "economy_class_total_seats": 40,
+        "business_class_available_seats": 10,
+        "economy_class_available_seats": 25,
+        "price": 4150.00
     }
 ]
